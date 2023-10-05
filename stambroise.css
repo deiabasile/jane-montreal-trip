@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightgray;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+  font-size: 13px;
+  color: white;
+}
+
+.main-container {
+  max-width: 1440px;
+  height: 100vh;
+  margin: auto auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.7%;
+}
+
+.card {
+  max-height: 98%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.card1 {
+  background-image: url(./images/st_ambroise/stAmbroise1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card2 {
+  background-image: url(./images/st_ambroise/IMG_1099.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card3 {
+  background-image: url(./images/st_ambroise/stAmbroise3.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card4 {
+  background-image: url(./images/st_ambroise/1ffd9c3d-0bb4-41e1-b6db-628448611114.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card5 {
+  background-image: url(./images/st_ambroise/IMG_1572.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card6 {
+  background-image: url(./images/st_ambroise/stAmbroiseFamily.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}

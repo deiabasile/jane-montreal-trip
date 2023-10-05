@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+  font-size: 13px;
+}
+
+.main-container {
+  max-width: 1440px;
+  height: 100vh;
+  margin: auto auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.7%;
+}
+
+.card {
+  max-height: 98%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.card1 {
+  background-image: url(./images/la_fontaine/Screen\ Shot\ 2023-09-01\ at\ 11.03.32\ AM.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card2 {
+  background-image: url(./images/la_fontaine/LaFontaine2.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card3 {
+  background-image: url(./images/la_fontaine/LaFontaine8.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card4 {
+  background-image: url(./images/la_fontaine/Screen\ Shot\ 2023-09-01\ at\ 11.04.37\ AM.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card5 {
+  background-image: url(./images/la_fontaine/LaFontaine6.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card6 {
+  background-image: url(./images/la_fontaine/LaFontaine7.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+  font-size: 13px;
+}
+
+.main-container {
+  max-width: 1440px;
+  height: 100vh;
+  margin: auto auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.7%;
+}
+
+.card {
+  max-height: 98%;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.card1 {
+  background-image: url(./images/ottawa/Screen\ Shot\ 2023-10-05\ at\ 11.13.55\ AM.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card2 {
+  background-image: url(./images/ottawa/Screen\ Shot\ 2023-10-05\ at\ 4.09.11\ PM.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card3 {
+  background-image: url(./images/ottawa/Screen\ Shot\ 2023-10-05\ at\ 11.17.59\ AM.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.card4 {
+  color: #fff;
+  background-color: gray;
+}
+
+h1 h3 {
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  background-color: #fff;
+  color: gray;
+  border-radius: 50px 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: fit-content;
+  margin-bottom: 5px;
+}
+
+.title2 {
+  color: #000000;
+  font-weight: bold;
+  background-color: rgba(250, 250, 250, 0.5);
+  padding: 5px 2px;
+  line-height: 10px;
+  border-radius: 15px 50px;
+  width: fit-content;
+  word-break: break-all;
+}
+
+p {
+  line-height: 2.8;
+  padding: 5px;
+}
+
+.card5 {
+  background-image: url(./images/ottawa/1d2446f0-26c7-467f-9a7c-ffc188331af8.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card6 {
+  background-image: url(./images/ottawa/72797ceb-e225-4492-81d4-d64a05f9c178.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
