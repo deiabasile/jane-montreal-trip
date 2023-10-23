@@ -126,10 +126,3 @@ a:hover {
   text-decoration: none;
   color: orange;
 }
-
-@media (max-width: 768px) {
-  .main-container {
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
-}
